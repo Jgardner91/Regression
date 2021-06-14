@@ -24,7 +24,7 @@ Chosing a feature that would incorporate a players speed. The more infield hits 
 
 Models
 
-A simple linear regression model was used and ended up producing the best results. A second degree polynomial model was also used, but ended up producing a much lower R^2. The backbone of the linear regression model is Ordinary Least Squares. Gradient descent wasnt used, and could potentially be used if i end up incorporating a much larger data set.
+A simple linear regression model was used and ended up producing the best results. A second degree polynomial model was also used, but ended up producing a much lower R^2. The backbone of the linear regression model is Ordinary Least Squares. 
 
 Most of my features were in similar numerical intervals, so there wasnt much need for scaling. I ran a scaled ridged regression, and came up with an almost identical R^2
 
